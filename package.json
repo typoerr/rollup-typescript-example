@@ -23,6 +23,7 @@
     "@types/node": "^13.11.1",
     "@typoerr/eslint-config": "^0.0.28",
     "eslint": "^6.8.0",
+    "gulp": "^4.0.2",
     "jest": "^25.3.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
@@ -34,6 +35,8 @@
   },
   "scripts": {
     "compile:rollup": "rollup -c rollup.config.js",
+    "compile:gulp": "gulp build",
+    "compile:gulp:watch": "gulp watch",
     "clean": "run-p clean:**",
     "clean:dist": "rimraf dist",
     "lint": "eslint src/**/*.ts",
