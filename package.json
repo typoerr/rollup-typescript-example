@@ -33,9 +33,7 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "compile": "run-p compile:*",
-    "compile:esm": "tsc --outDir dist/esm --module esnext",
-    "compile:cjs": "tsc --outDir dist/cjs --module commonjs",
+    "compile:rollup": "rollup -c rollup.config.js",
     "clean": "run-p clean:**",
     "clean:dist": "rimraf dist",
     "lint": "eslint src/**/*.ts",
