@@ -8,6 +8,7 @@ const tsconfig = path.join(base, 'tsconfig.json')
 
 export default [
   {
+    context: 'this',
     input: 'src/index.ts',
     output: {
       dir: './dist',
@@ -24,6 +25,7 @@ export default [
     ],
   },
   {
+    context: 'this',
     input: 'src/index.ts',
     output: {
       dir: './dist',
