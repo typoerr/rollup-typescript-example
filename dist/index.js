@@ -17,7 +17,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 
 function hello() {
-    return identity('hello');
+    return identity('hello!!!!!');
 }
 
 exports.hello = hello;
